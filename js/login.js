@@ -23,9 +23,9 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     const pinNumber = document.getElementById('pin-number').value;
     // console.log(phoneNumber, pinNumber)
 
-    if( phoneNumber === '5' && pinNumber === '1234'){
+    if( phoneNumber === '0566' && pinNumber === '1234'){
         console.log('your are trigger');
-        window.location.href = '/home.html';
+        window.location.href = './home.html';
     }
     else{
     alert('wrong number or PIN');
